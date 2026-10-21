@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="tech_and_civic_queue" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_TCQ_NAME</Name>
+		<Description>LOC_MODULE_TCQ_DESCRIPTION</Description>
+		<Authors>Alkeari</Authors>
+		<Package>Mod</Package>
+		<AffectsSavedGames>0</AffectsSavedGames>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="tech-and-civic-queue-shell" scope="shell" criteria="always">
+			<Actions>
+				<UIScripts>
+					<Item>ui/update-check.js</Item>
+				</UIScripts>
+				<UpdateText>
+					<Item>localization.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="tech-and-civic-queue-game" scope="game" criteria="always">
+			<Actions>
+				<UIScripts>
+					<Item>ui/update-check.js</Item>
+					<Item>ui/queue.js</Item>
+					<Item>ui/tree-queue.js</Item>
+				</UIScripts>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>localization.xml</File>
+	</LocalizedText>
+</Mod>

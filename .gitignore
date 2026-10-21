@@ -1,0 +1,15 @@
+# Release packages and rendered listings (Mod Publisher)
+out/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE state
+/.idea/
+/.vs/
+/.vscode/
+
+# Python bytecode
+__pycache__/

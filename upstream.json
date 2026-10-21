@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {"product": "Civilization VII", "kind": "steam-news", "id": "1295660", "role": "release"},
+    {"product": "Civilization VII", "kind": "url", "id": "https://civilization.2k.com/news/", "role": "release"},
+    {"product": "Civilization VII", "kind": "steam-discussions", "id": "1295660", "role": "feedback"},
+    {"product": "Civilization VII", "kind": "reddit", "id": "civ", "role": "feedback"}
+  ]
+}

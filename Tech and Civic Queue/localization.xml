@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_TCQ_NAME">
+			<Text>Tech and Civic Queue</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_TCQ_DESCRIPTION">
+			<Text>Hold Shift and click locked Technologies or Civics to queue several of them in order.</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_GROUP_TECH_AND_CIVIC_QUEUE">
+			<Text>Tech and Civic Queue</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_TCQ_CHECK_FOR_UPDATES_LABEL">
+			<Text>Check for Updates</Text>
+		</Row>
+		<Row Tag="LOC_OPTIONS_TCQ_CHECK_FOR_UPDATES_DESCRIPTION">
+			<Text>Once a day, at the main menu, asks alkeari.com for the newest version of Tech and Civic Queue and shows a short notice only when a newer one is out. Nothing else is sent.</Text>
+		</Row>
+		<Row Tag="LOC_TCQ_UPDATE_AVAILABLE">
+			<Text>Tech and Civic Queue {1_Latest} is out (you have {2_Current}). Update it on the Steam Workshop or Nexus Mods.</Text>
+		</Row>
+	</EnglishText>
+</Database>
